@@ -9,7 +9,6 @@ const App = () =>{
     const [expresion, setExpresion] = React.useState("")
     const [operacion, setOperacion] = React.useState("")
     const [resultado, setResultado] = React.useState("")
-    const [secuencia, setSecuencia] = React.useState(false)
     const botones = ["C", "+/-", "MOD", "÷", "7", "8", "9", "x", "4", "5", "6", "-", "1", "2", "3", "+", "0", ".", "=", "DEL"]
     const numeros = ["7", "8", "9", "4", "5", "6", "1", "2", "3", "0"]
 
