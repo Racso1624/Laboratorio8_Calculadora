@@ -34,7 +34,6 @@ const App = () =>{
             var nuevo_resultado = valor1 % valor2
         }
 
-        console.log(nuevo_resultado)
         if(nuevo_resultado <= 999999999 && nuevo_resultado >= 0){
             setValor_1("")
             var resultado_final = nuevo_resultado.toString().substring(0, 9)
