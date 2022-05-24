@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.17.9",
     "@eslint/create-config": "^0.1.2",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "jest-environment-node": "^28.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

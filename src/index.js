@@ -28,7 +28,6 @@ const App = () =>{
         }
         else if(operacion === "÷"){
             var nuevo_resultado = valor1 / valor2
-
         }
         else if(operacion === "MOD"){
             var nuevo_resultado = valor1 % valor2
