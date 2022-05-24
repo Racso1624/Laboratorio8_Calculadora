@@ -15,6 +15,8 @@ const operaciones = (operacion, valor1, valor2) =>{
     else if(operacion === "MOD"){
         var resultado = valor1 % valor2
     }
+
+    return resultado
 }
 
 export { operaciones }
